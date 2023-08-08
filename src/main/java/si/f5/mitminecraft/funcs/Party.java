@@ -538,7 +538,6 @@ public class Party extends Command implements TabExecutor {
                 _candidates_1.add("accept");
                 _candidates_1.add("join");
             }
-            _candidates_1.add("get");
             if (sendersParty == null){
                 for (ProxiedPlayer p : plugin.getProxy().getPlayers()){
                     if (p.getName().equals(sender.getName())) {
