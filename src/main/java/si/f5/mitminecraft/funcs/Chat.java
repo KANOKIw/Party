@@ -26,8 +26,6 @@ public class Chat extends Command {
 
     @Override
     public void execute(CommandSender sender, String[] args) {
-        sender.sendMessage(new TextComponent(ChatColor.RED+"This future might cause some Expections due to some of the EventHandlers aren't available."));
-        
         // Avoid null Object Error
         if (args.length < 1){
             sender.sendMessage(new TextComponent(ChatColor.RED + "使用方法: /chat <all/party>"));
